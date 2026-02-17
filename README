@@ -1,0 +1,4 @@
+“Since the application must behave correctly under network retries and
+ duplicate submissions, I implemented idempotency using a unique idempotencyKey
+  per expense creation request. This prevents duplicate expense records in case 
+  of client retries or refreshes.”
